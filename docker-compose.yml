@@ -1,0 +1,53 @@
+version: "3.8"
+
+services:
+  backend:
+    build: ./backend
+    command: "node dist/main.js"
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./backend/public:/app/public
+    depends_on:
+      - migrate
+    environment:
+      - DATABASE_URL=postgresql://postgres:ddd000f34@db:5432/brand_market
+
+  migrate:
+    build: ./backend
+    command: npx prisma migrate deploy
+    environment:
+      - DATABASE_URL=postgresql://postgres:ddd000f34@db:5432/brand_market
+    depends_on:
+      db:
+        condition: service_healthy
+
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: brand_market
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ddd000f34
+    volumes:
+      - ./db-init:/docker-entrypoint-initdb.d
+      - ./pg-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "psql postgres://postgres:ddd000f34@localhost:5432/brand_market -c 'SELECT true'",
+        ]
+      interval: 10s
+      retries: 5
+      start_period: 5s
+
+  nginx:
+    build:
+      context: .
+      dockerfile: nginx/Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
