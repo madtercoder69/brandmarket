@@ -1,0 +1,379 @@
+@media (max-width: 1115px) {
+  .chat__open {
+    display: none;
+  }
+  .chat__mobile__icon,
+  .burger__icon {
+    display: block;
+  }
+  .header__wrapper {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+  }
+  .header__items {
+    position: absolute;
+    top: 99%;
+    background-color: black;
+    width: 100%;
+    left: 0;
+    z-index: 40;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 16px;
+    padding: 16px;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.2s ease;
+  }
+  .header__active {
+    opacity: 1;
+    pointer-events: auto;
+    transition: 0.2s ease;
+  }
+
+  .link__icons {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+  }
+
+  .shop__link {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: start;
+  }
+
+  .user__btns {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+    gap: 5px;
+  }
+
+  .lng__btns {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 1340px) {
+  .users__wrapper,
+  .stores__wrapper,
+  .ctg__ad__wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 955px) {
+  .users__wrapper,
+  .stores__wrapper,
+  .ctg__ad__wrapper {
+    grid-template-columns: 1fr;
+  }
+  .users__btns__wrapper,
+  .store__btn__wrapper {
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+  .created__ad__user__wrapper {
+    justify-content: start;
+  }
+  .created__ad__user {
+    flex-direction: column;
+  }
+  .images__wrapper {
+    grid-template-columns: 1fr;
+  }
+  .chats__wrapper__pgs {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+@media (max-width: 610px) {
+  .users__filter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .item__usr__hsb {
+    flex-direction: column;
+    gap: 2px;
+    align-items: start;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 0;
+    border-left: 0;
+  }
+}
+@media (max-width: 1200px) {
+  .store__header {
+    top: 70px;
+  }
+  .store__header__wrapper {
+    margin-bottom: 5rem;
+  }
+}
+@media (max-width: 600px) {
+  .store__header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+  }
+  .store__header__wrapper {
+    margin-bottom: 150px;
+  }
+  .store__header > div {
+    display: none;
+  }
+}
+@media (max-width: 1300px) {
+  .visualize__panel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+
+    row-gap: 20px;
+    column-gap: 50px;
+  }
+
+  .preview__image {
+    width: 100%;
+    margin: 0 auto;
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+
+  .main_image {
+    grid-column: 1 / 1;
+    grid-row: 2;
+    margin-left: auto;
+    width: 100%;
+  }
+
+  .name__store {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .categories__wrapper__panel {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+@media (max-width: 1200px) {
+  .form__body__add_product {
+    padding: 10px 20px;
+  }
+  .form__body__add_product > ul {
+    gap: 20px;
+    grid-template-columns: 1fr;
+  }
+  .product__item {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5px;
+  }
+  .items__product__wrapper {
+    flex-direction: column;
+  }
+  .btns__store__product {
+    width: 100%;
+  }
+  .btns__store__product > span {
+    width: 100%;
+    max-width: 100%;
+  }
+  .stngs__product__icon,
+  .price__product {
+    margin: 0;
+  }
+  .chats__wrapper__store {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 800px) {
+  .product__item {
+    grid-template-columns: 1fr;
+    padding: 10px 20px;
+  }
+  .store__products__wrapper {
+    padding: 10px 20px;
+  }
+  .stngs__product__icon {
+    margin-left: auto;
+    width: 25px;
+  }
+  .price__product {
+    margin-left: auto;
+  }
+  .store__product__wrapper {
+    flex-direction: column;
+  }
+  .store__product__wrapper > button {
+    width: 100%;
+  }
+  .grid__ctg {
+    grid-template-columns: 1fr 1fr;
+  }
+  .update__pr {
+    grid-template-columns: 1fr;
+  }
+  .chats__wrapper {
+    flex-direction: column-reverse;
+  }
+  .chats__wrapper > .chat__store {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 590px) {
+  .chat__adaptive__active {
+    padding: 5px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+  }
+  .grid__ctg {
+    grid-template-columns: 1fr;
+  }
+  .grid__overview__store {
+    grid-template-columns: 1fr;
+  }
+  .visualize__panel {
+    grid-template-columns: 1fr;
+  }
+  .preview__image {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .main_image {
+    grid-row: 2;
+    grid-column: 1;
+    margin: 0 auto;
+  }
+  .name__store {
+    grid-row: 3;
+    grid-column: 1;
+    margin: 0 auto;
+  }
+  .chat__members {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1023px) {
+  .close__filters__mobile {
+    display: block;
+  }
+  .category__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+  }
+  .categories__wrapper {
+    background-color: #fe9f22;
+  }
+  .reset__category__btn {
+    background-color: #333333;
+    width: max-content;
+    margin: 0 auto;
+  }
+  .subcategories__wrapper {
+    background-color: #333333;
+    border-radius: 0px 20px 20px 20px;
+    transition: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+  }
+  .category__title {
+    width: max-content;
+    background-color: #333333;
+    padding: 0.5rem 1rem;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .border__full__btn {
+    border-radius: 20px;
+  }
+}
+@media (max-width: 720px) {
+  .category__wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 590px) {
+  .category__wrapper {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .subcategories__wrapper {
+    padding: 15px;
+  }
+}
+@media (max-width: 1125px) {
+  .logo__auth {
+    display: none;
+  }
+  body::before {
+    background-image: url("/web-images/bg-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Auth pages on mobile - properly center the entire background */
+  body[data-page="signin"]::before,
+  body[data-page="signup"]::before {
+    background-image: url("/web-images/bg-auth.png");
+    background-size: 100% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #000;
+    
+    /* Center the pseudo-element itself */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .content__wrapper {
+    background: transparent;
+  }
+  .content__wrapper__own {
+    background: #202020;
+  }
+
+  /* Страница авторизации - нет правил, нужно больше отступа */
+  body[data-page="signin"] .auth__cc {
+    padding-top: 200px;
+  }
+  /* Страница регистрации - есть правила, нужно меньше отступа */
+  body[data-page="signup"] .auth__cc {
+    padding-top: 10px;
+  }
+  /* По умолчанию для совместимости */
+  .auth__cc {
+    padding-top: 200px;
+  }
+}
+@media (max-width: 713px) {
+  /* Страница авторизации */
+  body[data-page="signin"] .auth__cc {
+    padding-top: 200px;
+  }
+  /* Страница регистрации */
+  body[data-page="signup"] .auth__cc {
+    padding-top: 10px;
+  }
+  /* По умолчанию для совместимости */
+  .auth__cc {
+    padding-top: 200px;
+  }
+}
