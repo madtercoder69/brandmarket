@@ -1,0 +1,192 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  SUPERADMIN
+  ADMIN
+  STORE_OWNER
+  USER
+}
+enum ChatType {
+  GENERAL
+  SUPPORT
+}
+
+enum PaymentStatus {
+  PENDING
+  COMPLETED
+  FAILED
+}
+
+model Chat {
+  id           String      @id @default(uuid()) @db.Uuid
+  type         ChatType
+  users        User[]      @relation("ChatUsers")
+  productId    String?     @db.Uuid 
+  product      Product?    @relation(fields: [productId], references: [id])
+  createdAt    DateTime    @default(now())
+  messages     Message[]
+
+  @@map("chats")
+}
+
+model Message {
+  id           String      @id @default(uuid()) @db.Uuid
+  chatId       String      @db.Uuid
+  senderId     String      @db.Uuid
+  content      String
+  createdAt    DateTime    @default(now())
+
+  chat         Chat        @relation(fields: [chatId], references: [id])
+  sender       User        @relation("UserMessages", fields: [senderId], references: [id]) 
+  @@map("messages")
+}
+
+model User {
+  id        String   @id @default(uuid()) @db.Uuid
+  username  String   @unique
+  password  String
+  role      Role
+  balance   Float @default(0)
+  createdAt DateTime @default(now())
+  messages  Message[] @relation("UserMessages") 
+  chats     Chat[]    @relation("ChatUsers")
+  isBlocked Boolean  @default(false) 
+
+  store     Store?  
+
+  @@map("users")
+}
+
+model Overview {
+  id        String     @id @default(uuid())
+  createdAt DateTime   @default(now())
+  images    Image[]  
+}
+
+model Image {
+  id        String   @id @default(uuid())
+  createdAt DateTime @default(now())
+  imagePath String
+  paymentUrl String
+  text      String
+  overviewId String
+  overview  Overview @relation(fields: [overviewId], references: [id])
+}
+
+
+model Filter {
+  id       String   @id @default(uuid()) @db.Uuid
+  imageUrl String   
+  stores   Store[]  @relation("StoreToFilter")
+
+  @@map("filters")
+}
+
+model Store {
+  id            String      @id @default(uuid()) @db.Uuid
+  name          String
+  description   String
+  ownerId       String      @db.Uuid @unique
+  products      Product[]
+  createdAt     DateTime    @default(now())
+  mainImage     String?
+  previewImage  String?
+  carouselImages String[]
+  isVisible     Boolean     @default(true)
+  filters       Filter[]    @relation("StoreToFilter") 
+  categories    Category[]  @relation("StoreToCategory")
+  subcategories Subcategory[] @relation("StoreToSubcategory")
+
+  owner         User        @relation(fields: [ownerId], references: [id])
+
+  @@map("stores")
+}
+
+model Category {
+  id            String        @id @default(uuid()) @db.Uuid
+  name          String
+  createdAt     DateTime      @default(now())
+  subcategories Subcategory[] @relation("CategoryToSubcategory")
+  stores        Store[]       @relation("StoreToCategory")
+
+  @@map("categories")
+}
+
+model Subcategory {
+  id          String      @id @default(uuid()) @db.Uuid
+  name        String
+  categoryId  String      @db.Uuid
+  createdAt   DateTime    @default(now())
+
+  category    Category    @relation("CategoryToSubcategory", fields: [categoryId], references: [id])
+  stores      Store[]     @relation("StoreToSubcategory")
+
+  @@map("subcategories")
+}
+
+model Product {
+  id           String   @id @default(uuid()) @db.Uuid
+  name         String
+  description  String
+  price        Float
+  type         String  
+  comment      String? 
+  photos       String[]
+  attachedFiles String[]  // New field for files to be shared after purchase
+  quantity     Float @default(0)
+  storeId      String   @db.Uuid
+  createdAt    DateTime @default(now())
+  chats        Chat[]  
+  payments     Payment[]
+
+  store        Store    @relation(fields: [storeId], references: [id])
+  filters      String?
+
+  @@map("products")
+}
+
+model Payment {
+  id             String         @id @default(uuid()) @db.Uuid
+  productId      String         @db.Uuid
+  invoiceToken   String         @unique
+  amount         Float
+  transactionId  String?
+  transactionHash String?
+  currency       String?
+  paymentMethod  String?        // Track which payment provider was used (cryptobot/westwallet)
+  status         PaymentStatus
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+
+  product        Product        @relation(fields: [productId], references: [id])
+
+  @@map("payments")
+}
+
+model ExchangeRate {
+  id            String   @id @default(uuid()) @db.Uuid
+  currencyCode  String   
+  rateToUsd     Float    
+  updatedAt     DateTime @updatedAt
+  
+  @@unique([currencyCode])
+  @@map("exchange_rates")
+}
+
+model HeaderButton {
+  id        String   @id @default(uuid()) @db.Uuid
+  name      String   // Button name (e.g. "casino", "bs", "chat")
+  link      String   // URL to navigate to
+  icon      String   // Icon path
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("header_buttons")
+}

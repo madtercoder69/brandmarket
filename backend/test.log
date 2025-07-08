@@ -1,0 +1,660 @@
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +40ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTokenModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mServeStaticModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mWestWallet API URL: https://api.westwallet.io[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mAPI Key configured: true[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSecret Key configured: true[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAdminModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mStoreModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mProductModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOverviewModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCategoryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mFiltersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPaymentModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mChatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[WebSocketsController] [39m[32mChatGateway subscribed to the "send_message" message[39m[38;5;3m +18ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +2ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAdminController {/api/admin}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/admin/users, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/admin/create-admin, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/admin/create-shop, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/admin/delete-shop/:storeId, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/admin/user-block/:id, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/admin/user-unblock/:id, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/admin/stores, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/admin/chats, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mStoreController {/api/store}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/store, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/store/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/store/owner/:ownerId, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/store/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/store/:id/main-image, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/store/:id/preview-image, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/store/:id/carousel-images, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/store/:id/carousel-image, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/store/:id/subcategory/:subcategoryId, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/store/:id/subcategory/:subcategoryId, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/store/:id/filters, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/store/:id/filter/:filterId, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mProductController {/api/product}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/product/:id, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/product/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/product/owner/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/product/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/product/:id, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/api/user}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/user/me, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOverviewController {/api/overview}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/overview, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/overview, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/overview, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCategoryController {/api/category}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/category, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/category/create, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/category/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/category/:categoryId/subcategory, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/category/subcategory/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mFiltersController {/api/filters}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/filters, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/filters/create, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/filters/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mChatController {/api/chat}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/chat/:chatId, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPaymentController {/api/payment}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/payment/min-amount, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/payment/create-invoice, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/payment/webhook, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/payment/check-status, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:10 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +556ms[39m
+Checking payment status for token: ba3d474a45e45f7cbcbacec5f50e6c
+Checking payment status for token: 4cb57d633e1814a39313040da18df9
+Payment found: {
+  id: '0f196cb2-1b0e-403d-94f4-9180fae794a7',
+  productId: 'fe210312-a12f-420e-8d23-546c7c564a5a',
+  invoiceToken: 'ba3d474a45e45f7cbcbacec5f50e6c',
+  amount: 500000000,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:28:53.151Z,
+  updatedAt: 2025-04-20T17:28:53.151Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:34:29 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: ba3d474a45e45f7cbcbacec5f50e6c[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:29 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=ba3d474a45e45f7cbcbacec5f50e6c[39m
+Payment found: {
+  id: '89aec8c7-d0ba-4227-9b63-9221d18523d7',
+  productId: '795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  invoiceToken: '4cb57d633e1814a39313040da18df9',
+  amount: 22523,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:30:53.331Z,
+  updatedAt: 2025-04-20T17:30:53.331Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:34:29 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: 4cb57d633e1814a39313040da18df9[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:29 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=4cb57d633e1814a39313040da18df9[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:29 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+[32m[Nest] 1  - [39m04/20/2025, 5:34:30 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Creating invoice for product: fdgfdhfj with price: 22523
+[32m[Nest] 1  - [39m04/20/2025, 5:34:30 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mFetching current exchange rate KZT to USD[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:31 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mUsing fallback exchange rate: 1 KZT = 0.00222 USD (450 KZT = 1 USD)[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:31 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mConverting 22523 KZT to USD: 50.00106 USD (rate: 0.00222)[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:31 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mCreating invoice with data: {"currencies":["USDTTRC"],"amount":"50.00","amount_in_usd":true,"ipn_url":"http://localhost:3000/payment/webhook?productId=795a810f-8ec5-4426-ab8e-6c31b88a8330","success_url":"/payment/success?productId=795a810f-8ec5-4426-ab8e-6c31b88a8330","description":"Payment for fdgfdhfj","label":"795a810f-8ec5-4426-ab8e-6c31b88a8330","ttl":15}[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:31 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mOriginal amount in KZT: 22523, Converted to USD: 50.00106[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:31 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mIPN URL: http://localhost:3000/payment/webhook?productId=795a810f-8ec5-4426-ab8e-6c31b88a8330[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:31 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSuccess URL: /payment/success?productId=795a810f-8ec5-4426-ab8e-6c31b88a8330[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:31 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/create_invoice[39m
+CONNECTING USER TO SUPPORT USERID: 9f7bd662-f6ae-45e6-ab5b-c21121d5173f, PRODUCTID: 795a810f-8ec5-4426-ab8e-6c31b88a8330
+Client disconnected: DEM24Sq_r6pdBmpYAAAB
+[32m[Nest] 1  - [39m04/20/2025, 5:34:31 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mResponse received: {"allowed_currencies_data":[{"address":"TAqCXWzhgWsJDwRofP8CUmR7oXXhNWGsM4","amount":"50.00000000","currency_code":"USDTTRC","dest_tag":""}],"error":"ok","expire_at":"2025-04-20 17:49:30","success_url":"/payment/success?productId=795a810f-8ec5-4426-ab8e-6c31b88a8330","token":"9053f9c35ab384c240220cb87c5774","url":"https://westwallet.io/payment/9053f9c35ab384c240220cb87c5774"}[39m
+Invoice created: {
+  allowed_currencies_data: [
+    {
+      address: 'TAqCXWzhgWsJDwRofP8CUmR7oXXhNWGsM4',
+      amount: '50.00000000',
+      currency_code: 'USDTTRC',
+      dest_tag: ''
+    }
+  ],
+  error: 'ok',
+  expire_at: '2025-04-20 17:49:30',
+  success_url: '/payment/success?productId=795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  token: '9053f9c35ab384c240220cb87c5774',
+  url: 'https://westwallet.io/payment/9053f9c35ab384c240220cb87c5774'
+}
+Payment record created: {
+  id: '5b95308a-087e-4a75-acd8-4450c1567c9f',
+  productId: '795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  invoiceToken: '9053f9c35ab384c240220cb87c5774',
+  amount: 22523,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:34:31.606Z,
+  updatedAt: 2025-04-20T17:34:31.606Z
+}
+CONNECTING USER TO SUPPORT USERID: 9f7bd662-f6ae-45e6-ab5b-c21121d5173f, PRODUCTID: 795a810f-8ec5-4426-ab8e-6c31b88a8330
+Client disconnected: ikVj8ymzxY8EJBGEAAAD
+CONNECTING USER TO SUPPORT USERID: 9f7bd662-f6ae-45e6-ab5b-c21121d5173f, PRODUCTID: d8e813ed-11fd-4f74-a364-2c5f5e534d13
+Client disconnected: B-4up-7hamTy6dMCAAAF
+Checking payment status for token: ba3d474a45e45f7cbcbacec5f50e6c
+Payment found: {
+  id: '0f196cb2-1b0e-403d-94f4-9180fae794a7',
+  productId: 'fe210312-a12f-420e-8d23-546c7c564a5a',
+  invoiceToken: 'ba3d474a45e45f7cbcbacec5f50e6c',
+  amount: 500000000,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:28:53.151Z,
+  updatedAt: 2025-04-20T17:28:53.151Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:34:38 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: ba3d474a45e45f7cbcbacec5f50e6c[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:38 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=ba3d474a45e45f7cbcbacec5f50e6c[39m
+Checking payment status for token: 4cb57d633e1814a39313040da18df9
+Payment found: {
+  id: '89aec8c7-d0ba-4227-9b63-9221d18523d7',
+  productId: '795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  invoiceToken: '4cb57d633e1814a39313040da18df9',
+  amount: 22523,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:30:53.331Z,
+  updatedAt: 2025-04-20T17:30:53.331Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:34:38 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: 4cb57d633e1814a39313040da18df9[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:38 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=4cb57d633e1814a39313040da18df9[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:38 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+[32m[Nest] 1  - [39m04/20/2025, 5:34:38 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: 9053f9c35ab384c240220cb87c5774
+Payment found: {
+  id: '5b95308a-087e-4a75-acd8-4450c1567c9f',
+  productId: '795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  invoiceToken: '9053f9c35ab384c240220cb87c5774',
+  amount: 22523,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:34:31.606Z,
+  updatedAt: 2025-04-20T17:34:31.606Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:34:46 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: 9053f9c35ab384c240220cb87c5774[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:46 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=9053f9c35ab384c240220cb87c5774[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:46 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: ba3d474a45e45f7cbcbacec5f50e6c
+Payment found: {
+  id: '0f196cb2-1b0e-403d-94f4-9180fae794a7',
+  productId: 'fe210312-a12f-420e-8d23-546c7c564a5a',
+  invoiceToken: 'ba3d474a45e45f7cbcbacec5f50e6c',
+  amount: 500000000,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:28:53.151Z,
+  updatedAt: 2025-04-20T17:28:53.151Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:34:52 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: ba3d474a45e45f7cbcbacec5f50e6c[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:52 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=ba3d474a45e45f7cbcbacec5f50e6c[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:53 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: 4cb57d633e1814a39313040da18df9
+Payment found: {
+  id: '89aec8c7-d0ba-4227-9b63-9221d18523d7',
+  productId: '795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  invoiceToken: '4cb57d633e1814a39313040da18df9',
+  amount: 22523,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:30:53.331Z,
+  updatedAt: 2025-04-20T17:30:53.331Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:34:53 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: 4cb57d633e1814a39313040da18df9[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:53 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=4cb57d633e1814a39313040da18df9[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:34:54 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: 9053f9c35ab384c240220cb87c5774
+Payment found: {
+  id: '5b95308a-087e-4a75-acd8-4450c1567c9f',
+  productId: '795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  invoiceToken: '9053f9c35ab384c240220cb87c5774',
+  amount: 22523,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:34:31.606Z,
+  updatedAt: 2025-04-20T17:34:31.606Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:35:02 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: 9053f9c35ab384c240220cb87c5774[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:35:02 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=9053f9c35ab384c240220cb87c5774[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:35:02 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: ba3d474a45e45f7cbcbacec5f50e6c
+Payment found: {
+  id: '0f196cb2-1b0e-403d-94f4-9180fae794a7',
+  productId: 'fe210312-a12f-420e-8d23-546c7c564a5a',
+  invoiceToken: 'ba3d474a45e45f7cbcbacec5f50e6c',
+  amount: 500000000,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:28:53.151Z,
+  updatedAt: 2025-04-20T17:28:53.151Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:35:08 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: ba3d474a45e45f7cbcbacec5f50e6c[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:35:08 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=ba3d474a45e45f7cbcbacec5f50e6c[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:35:08 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: 4cb57d633e1814a39313040da18df9
+Payment found: {
+  id: '89aec8c7-d0ba-4227-9b63-9221d18523d7',
+  productId: '795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  invoiceToken: '4cb57d633e1814a39313040da18df9',
+  amount: 22523,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:30:53.331Z,
+  updatedAt: 2025-04-20T17:30:53.331Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:35:09 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: 4cb57d633e1814a39313040da18df9[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:35:09 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=4cb57d633e1814a39313040da18df9[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:35:09 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: 9053f9c35ab384c240220cb87c5774
+Payment found: {
+  id: '5b95308a-087e-4a75-acd8-4450c1567c9f',
+  productId: '795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  invoiceToken: '9053f9c35ab384c240220cb87c5774',
+  amount: 22523,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:34:31.606Z,
+  updatedAt: 2025-04-20T17:34:31.606Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:35:16 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: 9053f9c35ab384c240220cb87c5774[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:35:16 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=9053f9c35ab384c240220cb87c5774[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:35:16 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: ba3d474a45e45f7cbcbacec5f50e6c
+Payment found: {
+  id: '0f196cb2-1b0e-403d-94f4-9180fae794a7',
+  productId: 'fe210312-a12f-420e-8d23-546c7c564a5a',
+  invoiceToken: 'ba3d474a45e45f7cbcbacec5f50e6c',
+  amount: 500000000,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:28:53.151Z,
+  updatedAt: 2025-04-20T17:28:53.151Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:35:22 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: ba3d474a45e45f7cbcbacec5f50e6c[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:35:22 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=ba3d474a45e45f7cbcbacec5f50e6c[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:35:23 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: 4cb57d633e1814a39313040da18df9
+Payment found: {
+  id: '89aec8c7-d0ba-4227-9b63-9221d18523d7',
+  productId: '795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  invoiceToken: '4cb57d633e1814a39313040da18df9',
+  amount: 22523,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:30:53.331Z,
+  updatedAt: 2025-04-20T17:30:53.331Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:35:23 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: 4cb57d633e1814a39313040da18df9[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:35:23 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=4cb57d633e1814a39313040da18df9[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:35:24 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: 9053f9c35ab384c240220cb87c5774
+Payment found: {
+  id: '5b95308a-087e-4a75-acd8-4450c1567c9f',
+  productId: '795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  invoiceToken: '9053f9c35ab384c240220cb87c5774',
+  amount: 22523,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:34:31.606Z,
+  updatedAt: 2025-04-20T17:34:31.606Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:35:32 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: 9053f9c35ab384c240220cb87c5774[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:35:32 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=9053f9c35ab384c240220cb87c5774[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:35:32 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: ba3d474a45e45f7cbcbacec5f50e6c
+Payment found: {
+  id: '0f196cb2-1b0e-403d-94f4-9180fae794a7',
+  productId: 'fe210312-a12f-420e-8d23-546c7c564a5a',
+  invoiceToken: 'ba3d474a45e45f7cbcbacec5f50e6c',
+  amount: 500000000,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:28:53.151Z,
+  updatedAt: 2025-04-20T17:28:53.151Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:35:38 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: ba3d474a45e45f7cbcbacec5f50e6c[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:35:38 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=ba3d474a45e45f7cbcbacec5f50e6c[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:35:38 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: 4cb57d633e1814a39313040da18df9
+Payment found: {
+  id: '89aec8c7-d0ba-4227-9b63-9221d18523d7',
+  productId: '795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  invoiceToken: '4cb57d633e1814a39313040da18df9',
+  amount: 22523,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:30:53.331Z,
+  updatedAt: 2025-04-20T17:30:53.331Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:35:39 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: 4cb57d633e1814a39313040da18df9[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:35:39 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=4cb57d633e1814a39313040da18df9[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:35:39 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: 9053f9c35ab384c240220cb87c5774
+Payment found: {
+  id: '5b95308a-087e-4a75-acd8-4450c1567c9f',
+  productId: '795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  invoiceToken: '9053f9c35ab384c240220cb87c5774',
+  amount: 22523,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:34:31.606Z,
+  updatedAt: 2025-04-20T17:34:31.606Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:35:46 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: 9053f9c35ab384c240220cb87c5774[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:35:46 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=9053f9c35ab384c240220cb87c5774[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:35:46 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: ba3d474a45e45f7cbcbacec5f50e6c
+Checking payment status for token: 4cb57d633e1814a39313040da18df9
+Checking payment status for token: 9053f9c35ab384c240220cb87c5774
+Payment found: {
+  id: '0f196cb2-1b0e-403d-94f4-9180fae794a7',
+  productId: 'fe210312-a12f-420e-8d23-546c7c564a5a',
+  invoiceToken: 'ba3d474a45e45f7cbcbacec5f50e6c',
+  amount: 500000000,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:28:53.151Z,
+  updatedAt: 2025-04-20T17:28:53.151Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:36:43 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: ba3d474a45e45f7cbcbacec5f50e6c[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:36:43 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=ba3d474a45e45f7cbcbacec5f50e6c[39m
+Payment found: {
+  id: '89aec8c7-d0ba-4227-9b63-9221d18523d7',
+  productId: '795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  invoiceToken: '4cb57d633e1814a39313040da18df9',
+  amount: 22523,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:30:53.331Z,
+  updatedAt: 2025-04-20T17:30:53.331Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:36:43 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: 4cb57d633e1814a39313040da18df9[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:36:43 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=4cb57d633e1814a39313040da18df9[39m
+Payment found: {
+  id: '5b95308a-087e-4a75-acd8-4450c1567c9f',
+  productId: '795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  invoiceToken: '9053f9c35ab384c240220cb87c5774',
+  amount: 22523,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:34:31.606Z,
+  updatedAt: 2025-04-20T17:34:31.606Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:36:43 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: 9053f9c35ab384c240220cb87c5774[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:36:43 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=9053f9c35ab384c240220cb87c5774[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:36:43 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+[32m[Nest] 1  - [39m04/20/2025, 5:36:43 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+[32m[Nest] 1  - [39m04/20/2025, 5:36:43 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: 9053f9c35ab384c240220cb87c5774
+Payment found: {
+  id: '5b95308a-087e-4a75-acd8-4450c1567c9f',
+  productId: '795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  invoiceToken: '9053f9c35ab384c240220cb87c5774',
+  amount: 22523,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:34:31.606Z,
+  updatedAt: 2025-04-20T17:34:31.606Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:36:45 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: 9053f9c35ab384c240220cb87c5774[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:36:45 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=9053f9c35ab384c240220cb87c5774[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:36:46 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: ba3d474a45e45f7cbcbacec5f50e6c
+Payment found: {
+  id: '0f196cb2-1b0e-403d-94f4-9180fae794a7',
+  productId: 'fe210312-a12f-420e-8d23-546c7c564a5a',
+  invoiceToken: 'ba3d474a45e45f7cbcbacec5f50e6c',
+  amount: 500000000,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:28:53.151Z,
+  updatedAt: 2025-04-20T17:28:53.151Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:36:52 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: ba3d474a45e45f7cbcbacec5f50e6c[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:36:52 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=ba3d474a45e45f7cbcbacec5f50e6c[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:36:52 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: 4cb57d633e1814a39313040da18df9
+Payment found: {
+  id: '89aec8c7-d0ba-4227-9b63-9221d18523d7',
+  productId: '795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  invoiceToken: '4cb57d633e1814a39313040da18df9',
+  amount: 22523,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:30:53.331Z,
+  updatedAt: 2025-04-20T17:30:53.331Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:36:53 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: 4cb57d633e1814a39313040da18df9[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:36:53 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=4cb57d633e1814a39313040da18df9[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:36:54 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: 9053f9c35ab384c240220cb87c5774
+Payment found: {
+  id: '5b95308a-087e-4a75-acd8-4450c1567c9f',
+  productId: '795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  invoiceToken: '9053f9c35ab384c240220cb87c5774',
+  amount: 22523,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:34:31.606Z,
+  updatedAt: 2025-04-20T17:34:31.606Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:37:01 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: 9053f9c35ab384c240220cb87c5774[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:37:01 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=9053f9c35ab384c240220cb87c5774[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:37:02 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: ba3d474a45e45f7cbcbacec5f50e6c
+Payment found: {
+  id: '0f196cb2-1b0e-403d-94f4-9180fae794a7',
+  productId: 'fe210312-a12f-420e-8d23-546c7c564a5a',
+  invoiceToken: 'ba3d474a45e45f7cbcbacec5f50e6c',
+  amount: 500000000,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:28:53.151Z,
+  updatedAt: 2025-04-20T17:28:53.151Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:37:08 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: ba3d474a45e45f7cbcbacec5f50e6c[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:37:08 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=ba3d474a45e45f7cbcbacec5f50e6c[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:37:08 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: 4cb57d633e1814a39313040da18df9
+Payment found: {
+  id: '89aec8c7-d0ba-4227-9b63-9221d18523d7',
+  productId: '795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  invoiceToken: '4cb57d633e1814a39313040da18df9',
+  amount: 22523,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:30:53.331Z,
+  updatedAt: 2025-04-20T17:30:53.331Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:37:09 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: 4cb57d633e1814a39313040da18df9[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:37:09 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=4cb57d633e1814a39313040da18df9[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:37:09 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: 9053f9c35ab384c240220cb87c5774
+Payment found: {
+  id: '5b95308a-087e-4a75-acd8-4450c1567c9f',
+  productId: '795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  invoiceToken: '9053f9c35ab384c240220cb87c5774',
+  amount: 22523,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:34:31.606Z,
+  updatedAt: 2025-04-20T17:34:31.606Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:37:16 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: 9053f9c35ab384c240220cb87c5774[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:37:16 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=9053f9c35ab384c240220cb87c5774[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:37:16 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: ba3d474a45e45f7cbcbacec5f50e6c
+Payment found: {
+  id: '0f196cb2-1b0e-403d-94f4-9180fae794a7',
+  productId: 'fe210312-a12f-420e-8d23-546c7c564a5a',
+  invoiceToken: 'ba3d474a45e45f7cbcbacec5f50e6c',
+  amount: 500000000,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:28:53.151Z,
+  updatedAt: 2025-04-20T17:28:53.151Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:37:22 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: ba3d474a45e45f7cbcbacec5f50e6c[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:37:22 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=ba3d474a45e45f7cbcbacec5f50e6c[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:37:22 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: 4cb57d633e1814a39313040da18df9
+Payment found: {
+  id: '89aec8c7-d0ba-4227-9b63-9221d18523d7',
+  productId: '795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  invoiceToken: '4cb57d633e1814a39313040da18df9',
+  amount: 22523,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:30:53.331Z,
+  updatedAt: 2025-04-20T17:30:53.331Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:37:23 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: 4cb57d633e1814a39313040da18df9[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:37:23 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=4cb57d633e1814a39313040da18df9[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:37:23 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
+Checking payment status for token: 9053f9c35ab384c240220cb87c5774
+Payment found: {
+  id: '5b95308a-087e-4a75-acd8-4450c1567c9f',
+  productId: '795a810f-8ec5-4426-ab8e-6c31b88a8330',
+  invoiceToken: '9053f9c35ab384c240220cb87c5774',
+  amount: 22523,
+  transactionId: null,
+  transactionHash: null,
+  currency: null,
+  status: 'PENDING',
+  createdAt: 2025-04-20T17:34:31.606Z,
+  updatedAt: 2025-04-20T17:34:31.606Z
+}
+Payment is pending, checking transactions via API
+[32m[Nest] 1  - [39m04/20/2025, 5:37:31 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mGetting transactions for token: 9053f9c35ab384c240220cb87c5774[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:37:31 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mSending request to: https://api.westwallet.io/address/invoice_transactions?token=9053f9c35ab384c240220cb87c5774[39m
+[32m[Nest] 1  - [39m04/20/2025, 5:37:32 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mTransactions response: {"count":0,"error":"ok","result":[]}[39m
+Transactions for token: { count: 0, error: 'ok', result: [] }
